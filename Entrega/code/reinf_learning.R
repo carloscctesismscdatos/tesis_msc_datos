@@ -22,7 +22,7 @@ messages <- read_csv("https://www.dropbox.com/s/q605tplmey33hgu/messages_3000.cs
 ##############################################################################################################
 
 #Numero de veces que se jala la palanca (veces en las que se escogen nuevas tasas de transmision con el algoritmo epsilon-miope)
-iteraciones <- 50 
+iteraciones <- 25 
 
 #Primero mensajes a enviar
 msn <- filter(messages, tiempo_envio == min(messages$tiempo_envio))
